@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>MY BIOGRAPHY TEMPLATE</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+{
+	box-sizing: border-box;
+}
+body{
+	font-family: Arial,Helvetica,sans-serif;
+}
+/* style the header */
+header{
+	background-color: #666;
+		padding:30px;
+			text-align: center;
+				font-size: 35px;
+					color: white;
+}
+/* container for flexboxes */
+section{
+	display: -webkit-flex;
+		display: flex;
+			text-decoration: none;
+}
+
+/* create two columns/boxes that floats next to each other */
+nav{
+	-webkit-flex: 1;
+		-ms-flex: 1;
+		background: #ccc;
+		padding: 20px;
+}
+
+/* style the list inside the menu */
+nav ul{
+	list-style-type: none;
+		padding: 0;
+}
+
+article{
+	-webkit-flex: 3;
+		-ms-flex:3;
+			flex: 3;;
+				background-color: #f1f1f1;
+					padding: 10px;
+}
+
+/* style the footer */
+footer{
+	background-color: #777;
+		padding: 10px;
+			text-align: center;
+				color:white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px){
+	section{
+		-webkit-flex-direction: column;
+			flex-direction:column;
+	}
+}
+</style>
+	</head>
+	<body>
+		<header>
+			<h2>URVASHI MISHRA</h2>
+		</header>
+		<section>
+			<nav>
+				<ul>
+					<li><a href="https://github.com/urvashi04">PROFILE</a></li>
+					<li><a href="https://www.w3schools.com/">LEARNING</a></li>
+					<li><a href="https://www.thrillophilia.com/places-to-visit-in-jaipur">MY CITY TOUR</a></li>
+					<li><i>comments</i></li>
+				</ul>
+			</nav>
+			<article>
+			
+				<h1>INTRODUCTION</h1>
+				<p>This is urvashi mishra welcome you to my profile.</p>
+				<p>Below the <b>QR</b>code is given scan with our scanner and know about me.</p>
+				<button><a href="/home/smiley04/Desktop/html/2.html"<b>QR CODE</b></a></button>
+				<img src="/home/smiley04/Desktop/html/qr.png"width="300"height="300">
+			</article>
+		</section>
+		<footer>
+			<p><b>WELCOME</b></p>
+		</footer>
+	</body>
+</html>
+
